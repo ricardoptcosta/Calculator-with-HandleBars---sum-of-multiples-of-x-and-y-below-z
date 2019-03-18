@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Calculator: Multiples of x and y under z </title>
+	<script src="js/handlebars-v4.1.1.js"></script>
+
+	<script id="result-template" type="text/x-handlebars-template">
+		<p>
+	The sum of all the multiples of {{firstNumber}} and {{secondNumber}} below {{thirdNumber}} is {{result}}.
+		</p>
+	</script>
+
+	<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+	
+	<title> Calculator: Multiples of x and y under z </title>
+	<h2>What is the sum of all the multiples of <input type="number" id="firstNumber" placeholder="First Number"> and
+		<input type="number" id="secondNumber" placeholder="Second Number"> below <input type="number" id="thirdNumber"
+		 placeholder="Third Number">?</h2>
+
+
+	<button id="demoButton">Find the Result</button>
+
+	<div id="resultDiv"></div>
+
+
+
+	<script src="js/javascript.js"></script>
+
+</body>
+
+</html>
