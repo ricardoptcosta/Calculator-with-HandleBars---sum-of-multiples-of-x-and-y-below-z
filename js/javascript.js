@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             thirdNumber: thirdNumber,
             result: result
         });
-        document.querySelector("#resultDiv").innerHTML = html;
+        document.querySelector("#MultiplesOfXandYunderZ").innerHTML = html;
     });
 });
 
